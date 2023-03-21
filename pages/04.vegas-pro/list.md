@@ -1,8 +1,6 @@
 ---
 title: 'Vegas Pro'
 body_classes: no-anchors
-content:
-    items: '@self.children'
 taxonomy:
     category:
         - listable
