@@ -11,8 +11,6 @@ routes:
         - /ae
     default: /after-effects
 body_classes: no-anchors
-content:
-    items: '@self.children'
 metadata:
     'twitter:card': summary_large_image
 ---
