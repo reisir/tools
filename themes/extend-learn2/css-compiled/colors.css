@@ -20,6 +20,7 @@
   /* Accent colored elements 
    * ie. links, sidebar header, sidebar checkmarks */
   --tools-accent: #1694ca;
+  --tools-accent-transparent: #1694ca00;
   /* links on hover */
   --tools-accent-hover: #0e6185;
   

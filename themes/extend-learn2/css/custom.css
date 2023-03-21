@@ -61,6 +61,15 @@ div.column > * {
     gap: 0.5rem;
   	color: inherit;
 }
+.griddy > a, .griddy > a * {
+  	transition: 0.3s;
+}
+.griddy > a:hover img {
+	transform: scale(1.05);
+}
+.griddy > a:hover h3 {
+	color: var(--tools-accent);  
+}
 
 img,
 video,
