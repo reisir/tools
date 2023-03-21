@@ -170,8 +170,7 @@ class EditorPlugin extends Plugin
         }
 
         // Deny access if logged in user doesn't have the super permission
-        $user = $this->grav['user'];
-        if (!isset($user->access) || !isset($user->access['admin']) || !isset($user->access['admin']['super']) || !$user->access['admin']['super']) {
+        if (!$this->grav['user']->authorize('admin.super')) {
             return;
         }
 
