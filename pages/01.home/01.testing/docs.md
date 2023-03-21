@@ -22,8 +22,6 @@ icons in image descriptions do not work :/
 
 ![[i=untwirl]](vlcsnap.png "vlcsnap")
 
-burasf
-
 <div class="griddy">
 {% for page in page.collection %}
     <div>
