@@ -8,15 +8,14 @@ Modifications I've made to plugins / themes that might be useful to other people
 
 ### Editor plugin changes
 
-The [Editor plugin by TwelveTone](https://www.twelvetone.tv/docs/developer-tools/grav-plugins/grav-editor-plugin) is powerful and borderline required if you're going to be customizing your theme and stuff. Unfortunately it just lets any user on your site edit any file, including .php files (the admin plugin included). These four lines of code fix that by only allowing admins to use the plugin.
+The [Editor plugin by TwelveTone](https://www.twelvetone.tv/docs/developer-tools/grav-plugins/grav-editor-plugin) is powerful and borderline required if you're going to be customizing your theme and stuff. Unfortunately it just lets any user on your site edit any file, including .php files (the admin plugin included). These three lines of code fix that by only allowing admins to use the plugin.
 
-The code: 
+The code (thanks to Ricardo from the Grav discord for this better version): 
 
 ```php
 // Deny access if logged in user doesn't have the super permission
-$user = $this->grav['user'];
-if (!isset($user->access) || !isset($user->access['admin']) || !isset($user->access['admin']['super']) || !$user->access['admin']['super']) {
-  return;
+if (!$this->grav['user']->authorize('admin.super')) {
+    return;
 }
 ```
 
