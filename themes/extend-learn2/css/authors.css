@@ -90,18 +90,16 @@ footer {
 /* Profile picture caption */
 .author-profile .author-name {
     background-color: #1694ca;
-    border-radius: 4px;
+    border-radius: 4px 4px 4px 0px;
     color: white;
     padding: 0 0.5rem;
   	position: absolute;
-  	top: -0.5rem;
-  	left: -2rem;
-  	transform: scale(0,0) translate(2rem, 0.5rem);
-  	transform-origin: bottom right;
-  	transition: transform 0.25s ease-out;
+  	top: -0.25rem;
+  	left: calc(100% - 1rem);
 }
-.author-profile:hover .author-name {
-  	transform: scale(1,1) translate(0,0);
+
+.author-information {
+  padding-top: 1.5rem;
 }
 
 /* Reset theme image settings */
