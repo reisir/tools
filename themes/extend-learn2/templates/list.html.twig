@@ -1,7 +1,6 @@
 {% extends 'default.html.twig' %}
 
 {% set collection = page.collection() %}
-
 {% if collection is empty %}
 	{% set options = { items: {'@self.children':''}, 'filter' : { visible: true, published: true } } %}
 	{% set collection = page.collection(options) %}
@@ -9,9 +8,8 @@
 
 {% block extra %}	
 	<div class="list">
-      {% for child in collection %}
-          	{% include 'partials/item.html.twig' with {'blog':page, 'page':child, 'truncate':true} %}
+      {% for page in collection %}
+          	{% include 'partials/item.html.twig' with {'page':page} %}
       {% endfor %}
 	</div>
 {% endblock %}
-
