@@ -19,11 +19,12 @@ Here's a markdown guide [https://www.markdownguide.org/basic-syntax/](https://ww
 
 ### Site rules
 
-1. Do not edit other authors profile or blog pages
-2. Images and videos should be compressed to a reasonable degree before uploading to the site
+1. Do not edit other authors profile or blog pages.
+2. Images and videos should be compressed to a reasonable degree before uploading to the site.
 3. No fucking swearing or NSFW content on non-personal pages! This includes your author signature, it is displayed on all pages you author!
-4. I, [Reisir](/reisir) see everything you do on amv.tools. Use a password that you do not use on other sites, I might be able to see that too. In addition, all page edits trigger an automatic GitHub backup to https://github.com/reisir/tools.
-5. The page editor includes an Advanced tab. You can edit the menu order and page visibility there. Note that the visibility setting only removes the page from the menu, it's still reachable by its url (like this page). Please do not touch the other options. Thank you.
+4. [I](/reisir) see everything you do on amv.tools.
+	- Use a password that you do not use on other sites, **I might be able to see that too** (grav does encrypt it but it might be possible to find the key it uses for encrypting). I recommend you use a password manager (good to do in any case).
+	- All page edits trigger an automatic GitHub backup to https://github.com/reisir/tools. It is public.
 
 ### Creating new pages
 
@@ -35,11 +36,17 @@ The page editor has a media upload field under the main content. You can use it 
 
 ### Writing guidelines
 
- - Vegas Pro is owned by MAGIX since Vegas Pro 14. Do not call it "Sony Vegas"
+ - Vegas Pro has been owned by MAGIX since Vegas Pro 14. Do not call it "Sony Vegas".
+ - Please refrain from using meta text eg. "in this guide" or personal language eg. "now I will do x". If you see these on pages I've written, complain to me.
+ - You don't have to worry too much about the language / style you use when making guides. I will go over and edit them whether you want to or not. Except blog posts.
 
 ### Writing tips
 
  - You can save the content without reloading the editor with [kbd="ctrl + shift + S"]
+ - The page editor includes the Options and Advanced tabs.
+ 	- In options you can edit the Published status of a page, making it inaccessible. 
+ 	- In Advanced you can edit the visibility of a page, making it not show up in the menu (but still accessible by url if it's published). 
+ 	- You can also re-order pages in the Advanced tab (make sure the page has the Folder Numeric Prefix enabled).
 
 ### Editing your author profile
 
