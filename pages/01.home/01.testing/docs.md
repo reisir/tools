@@ -20,7 +20,7 @@ metadata:
 
 icons in image descriptions do not work :/
 
-pleaaaaaaaase
+heheh i am editing the page 
 
 ![[i=untwirl]](vlcsnap.png "vlcsnap")
 
@@ -58,13 +58,6 @@ pleaaaaaaaase
     padding: 0;
 }
 [/assets]
-
-## Webring widget
-
-<iframe src="https://reisir.github.io/webring-widget/"></iframe>
-
-<a href="https://reisir.github.io/webring-widget/previous">Previous</a>
-<a href="https://reisir.github.io/webring-widget/next">Next</a>
 
 [test](/vegas/troubleshooting)
 
