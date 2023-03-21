@@ -2,8 +2,6 @@
 title: Blog
 slug: blog
 menu: Blog
-content:
-    items: '@self.children'
 body_classes: no-anchors
 metadata:
     'twitter:card': summary_large_image
