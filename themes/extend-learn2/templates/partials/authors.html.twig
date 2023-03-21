@@ -1,0 +1,35 @@
+{% macro profile(authorPage) %}
+	<div class="author-profile author-row">
+	<div class="author-figure">
+      	<a href="{{authorPage.url}}">{{ authorPage.media.images|first|raw }}</a>
+		<span class="author-name">{{ authorPage.title }}</span>
+	</div>
+	<div class="author-information author-column">
+		<div class="author-signature">
+		{{ authorPage.contentMeta.shortcodeMeta.shortcode.section.signature|raw }}
+		</div>
+	</div>
+	</div>
+{% endmacro %}
+
+<div class="information-card">
+	<div class="page-information">
+		<span title="Last updated"> 
+          	<i class="fa-solid fa-calendar" title="Last updated"></i>
+			{{ page.date|date(config.system.pages.dateformat.short) }}
+		</span>
+      	{% include 'partials/logo.html.twig' %}
+	</div>
+	{% if page.taxonomy.authors %}
+		<div id="authors" class="authors">
+			{% for author in page.taxonomy.authors %}
+				{% set authorPages = page.collection({'items': {'@taxonomy':{'category': 'author', 'authors': author}}}) %}
+				{% for authorPage in authorPages %}
+					{% if authorPage %}
+						{{ _self.profile(authorPage) }}
+					{% endif %}
+				{% endfor %}
+			{% endfor %}
+		</div>
+	{% endif %}
+</div>
