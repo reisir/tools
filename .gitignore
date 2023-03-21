@@ -2,3 +2,5 @@
 !/pages
 !/themes
 !/plugins
+!.gitignore
+!/.vscode

@@ -20,7 +20,7 @@ metadata:
 
 icons in image descriptions do not work :/
 
-heheh i am editing the page 
+heheh i added an ssh key pls work now
 
 ![[i=untwirl]](vlcsnap.png "vlcsnap")
 
