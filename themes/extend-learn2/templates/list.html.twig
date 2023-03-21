@@ -1,11 +1,10 @@
-{% extends 'docs.html.twig' %}
+{% extends 'default.html.twig' %}
 
-{% set collection = page.collection() %}
 {% block extra %}	
 	<div class="list">
-	{% for child in collection %}
-		{% include 'partials/item.html.twig' with {'blog':page, 'page':child, 'truncate':true} %}
-	{% endfor %}
+      {% for child in page.collection() %}
+          {% include 'partials/item.html.twig' with {'blog':page, 'page':child, 'truncate':true} %}
+      {% endfor %}
 	</div>
 {% endblock %}
 

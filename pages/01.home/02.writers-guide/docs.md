@@ -17,7 +17,7 @@ Grav orders pages by folder structure and it converts markdown files into HTML. 
 
 Here's a markdown guide [https://www.markdownguide.org/basic-syntax/](https://www.markdownguide.org/basic-syntax/). You only really need to know what it looks like, the admin panel editor has buttons for common stuff like headings and links and images.
 
-### Rules
+### Site rules
 
 1. Do not edit other authors profile or blog pages
 2. Images and videos should be compressed to a reasonable degree before uploading to the site
@@ -27,7 +27,7 @@ Here's a markdown guide [https://www.markdownguide.org/basic-syntax/](https://ww
 
 ### Creating new pages
 
-To create a page, go to ["pages"](https://amv.tools/admin/pages) in the admin panel and click "Add" in the top right. Make sure the template is set to "Docs".
+To create a page, go to ["pages"](https://amv.tools/admin/pages) in the admin panel and click "Add" in the top right. Make sure the template is set to "Default".
 
 After creating a page, the editor opens. Save the page once to create it on disk. Grav treats it as a draft before saving the first time.
 
