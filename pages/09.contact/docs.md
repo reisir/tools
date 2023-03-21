@@ -17,3 +17,7 @@ Have you found an error or a way to improve the site? Do you want to write for u
 *  Reisir#5441 on [Discord](https://discord.gg)
 *  By email: [safe-email autolink="true"]reseptivaras@gmail.com[/safe-email]
 
+## For nerds:
+
+* amv.tools on GitHub https://github.com/reisir/tools
+
