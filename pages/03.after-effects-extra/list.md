@@ -2,8 +2,6 @@
 title: 'After Effects Extra Credit'
 body_classes: no-anchors
 visible: true
-content:
-    items: '@self.children'
 taxonomy:
     category:
         - listable
