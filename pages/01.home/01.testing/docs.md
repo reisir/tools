@@ -20,7 +20,7 @@ metadata:
 
 icons in image descriptions do not work :/
 
-heheh i added an ssh key pls work now
+heheh i gave the grav user permission to use the ssh key pls work
 
 ![[i=untwirl]](vlcsnap.png "vlcsnap")
 
