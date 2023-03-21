@@ -20,7 +20,7 @@ metadata:
 
 icons in image descriptions do not work :/
 
-heheh i am editing the page 
+heheh i edited the page locally and pushed it to github
 
 ![[i=untwirl]](vlcsnap.png "vlcsnap")
 
