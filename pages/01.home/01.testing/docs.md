@@ -22,6 +22,8 @@ icons in image descriptions do not work :/
 
 heheh i added an ssh key pls work now
 
+what the fuck
+
 ![[i=untwirl]](vlcsnap.png "vlcsnap")
 
 <div class="griddy">
