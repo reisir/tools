@@ -95,10 +95,10 @@ class EditorPlugin extends Plugin
                 }
                 $pageToEdit = $_GET['target'];
 
-//                if (!$pageToEdit) {
-//                    $this->grav->redirect("/editor");
-//                    return "";
-//                }
+                //                if (!$pageToEdit) {
+                //                    $this->grav->redirect("/editor");
+                //                    return "";
+                //                }
 
                 if (!is_file($pageToEdit)) {
                     return "<div>The file you have selected to edit was not found.</div>";
@@ -124,7 +124,7 @@ class EditorPlugin extends Plugin
                 $page = new Page;
                 $path = __DIR__ . '/admin/editor-pages/editor-action.md';
                 $page->init(new \SplFileInfo($path));
-//                $page->template('empty');
+                //                $page->template('empty');
                 $page->slug(basename($route));
 
                 $e->page = $page;
@@ -136,19 +136,19 @@ class EditorPlugin extends Plugin
         }
     }
 
-//    public function onAdminMenu()
-//    {
-//        // The editor CSS is loaded from the twigs.
-//        // Also see https://github.com/Flamenco/grav-plugin-core-service-manager/issues/4#issuecomment-386111807
-//        $manager = ServiceManager::getInstance();
-//
-//        $manager->registerService('asset', [
-//            'scope' => ['all'],
-//            'order' => 'last',
-//            'type' => 'css',
-//            'url' => 'plugin://editor/assets/editor.css'
-//        ]);
-//    }
+    //    public function onAdminMenu()
+    //    {
+    //        // The editor CSS is loaded from the twigs.
+    //        // Also see https://github.com/Flamenco/grav-plugin-core-service-manager/issues/4#issuecomment-386111807
+    //        $manager = ServiceManager::getInstance();
+    //
+    //        $manager->registerService('asset', [
+    //            'scope' => ['all'],
+    //            'order' => 'last',
+    //            'type' => 'css',
+    //            'url' => 'plugin://editor/assets/editor.css'
+    //        ]);
+    //    }
 
     public function onTwigExtensions()
     {
@@ -161,7 +161,6 @@ class EditorPlugin extends Plugin
         if ($this->isAdmin()) {
             return;
         }
-
     }
 
     public function onPluginsInitialized()
@@ -170,15 +169,21 @@ class EditorPlugin extends Plugin
             return;
         }
 
-		if (!$this->grav['core-service-util']->checkPluginDependencies($this)) {
+        // Deny access if logged in user doesn't have the super permission
+        $user = $this->grav['user'];
+        if (!isset($user->access) || !isset($user->access['admin']) || !isset($user->access['admin']['super']) || !$user->access['admin']['super']) {
             return;
         }
 
-		$this->grav['core-service-util']->checkAllPluginDependencies();
+        if (!$this->grav['core-service-util']->checkPluginDependencies($this)) {
+            return;
+        }
+
+        $this->grav['core-service-util']->checkAllPluginDependencies();
 
         $this->enable([
             'onTwigExtensions' => ['onTwigExtensions', 0],
-//            'onAdminMenu' => ['onAdminMenu', 0],
+            //            'onAdminMenu' => ['onAdminMenu', 0],
             'onAdminTwigTemplatePaths' => ['onAdminTwigTemplatePaths', 0],
             'onPageNotFound' => ['onPageNotFound', 1],
             'onPagesInitialized' => ['onPagesInitialized', 0],
