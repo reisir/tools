@@ -1,0 +1,104 @@
+.authors * {
+    margin: 0;
+    padding: 0;
+}
+
+.information-card {
+    width: fit-content;
+    position: relative;
+}
+
+.information-card .page-information {
+    background-color: #1694ca;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.25rem 1rem;
+    color: white;
+}
+
+.information-card .page-information a.page-link,
+.information-card .page-information a.page-link:hover,
+.information-card .page-information a.page-link:active,
+.information-card .page-information a.page-link:visited {
+    color: white;
+    text-decoration: underline;
+}
+
+.information-card .page-information span {
+    margin-right: 0.5rem;
+}
+
+.information-card .page-information span:not(:first-child) {
+    margin-left: 0.25rem;
+}
+
+.authors {
+    background-color: #38424d;
+}
+
+.authors .authors-title {
+    color: inherit;
+}
+
+.authors .author-profile {
+    display: flex;
+    padding: 1rem 1rem;
+}
+
+.authors .author-profile .author-figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.authors .author-profile .author-figure .author-name {
+    background-color: #1694ca;
+    border-radius: 4px;
+    color: white;
+    padding: 0 0.5rem;
+}
+
+.authors .author-profile .author-figure * {
+    max-width: 5rem;
+    min-width: 3rem;
+}
+
+.authors .author-profile .author-figure img {
+    border-radius: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.authors .author-profile .author-signature {
+    padding-left: 1rem;
+}
+
+.authors .author-profile .author-signature figure {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+.information-card {
+ 	position: fixed;
+    top: 1rem;
+    right: 0;
+	z-index: 100;
+    transform: translate(80%,0);
+}
+.information-card #authors {
+    transform: translate(100%,0);
+}
+.information-card,
+.information-card #authors {
+    transition: transform 0.25s ease-out;
+}
+.information-card:hover,
+.information-card:hover #authors {
+    transform: translate(0,0);
+}
+
+
