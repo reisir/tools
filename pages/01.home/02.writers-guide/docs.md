@@ -22,7 +22,7 @@ Here's a markdown guide [https://www.markdownguide.org/basic-syntax/](https://ww
 1. Do not edit other authors profile or blog pages
 2. Images and videos should be compressed to a reasonable degree before uploading to the site
 3. No fucking swearing or NSFW content on non-personal pages! This includes your author signature, it is displayed on all pages you author!
-4. I, [Reisir](/reisir) see everything you do on amv.tools. Use a password that you do not use on other sites, I might be able to see that too.
+4. I, [Reisir](/reisir) see everything you do on amv.tools. Use a password that you do not use on other sites, I might be able to see that too. In addition, all page edits trigger an automatic GitHub backup to https://github.com/reisir/tools.
 5. The page editor includes an Advanced tab. You can edit the menu order and page visibility there. Note that the visibility setting only removes the page from the menu, it's still reachable by its url (like this page). Please do not touch the other options. Thank you.
 
 ### Creating new pages
