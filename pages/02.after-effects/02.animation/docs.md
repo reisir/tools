@@ -40,4 +40,3 @@ I encourage you to try and animate as many properties as you can find and playin
 - <kbd>UU</kbd> shows all modified properties on the selected layer.
 - Both of the above shortcuts work even if you haven't selected a layer.
 - You can make keyframes into hold keyframes by right clicking and selecting Toggle Hold Keyframe
-
