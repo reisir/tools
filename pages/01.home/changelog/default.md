@@ -16,3 +16,4 @@ A very scuffed way to document changes I make to the theme / stylesheets and to 
 * Recovered from ISP changing the IP 
 * Changed admin theme
 * Fixed some unnecessary scrollbars showing up in the admin panel
+* Fixed all unnecessary scrollbars showing up in the admin panel
