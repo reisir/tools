@@ -52,6 +52,13 @@ Place this in `user/plugins/editor/editor.php`, in the `onPluginsInitialized()` 
     padding: 0 !important;
 }
 
+/* Fix the "drop your files here" button overflowing */
+.pagemedia-field button {
+    white-space: normal;
+    background-color: transparent !important;
+    cursor: pointer;
+}
+
 /* 
  * OPTIONAL STYLING FOR THE UPLOADS LABEL
  */
