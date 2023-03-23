@@ -72,7 +72,7 @@ Vegas Pro comes with a ton of render templates. You should set up some custom on
 
 #### Rendering lossless video (AVI / UtVideo)
 
-To render lossless avi, pick any template from the Video for Windows category and modify it to fit your sources frame size and frame rate. Change the codec to UtVideo (most of them are fine). If you do not have UtVideo, just use the veg
+To render lossless avi, pick any template from the Video for Windows category and modify it to fit your sources frame size and frame rate. Change the codec to UtVideo (most of them are fine).
 
 #### Rendering lossy video (MP4 / h264)
 
