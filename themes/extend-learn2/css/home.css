@@ -1,20 +1,20 @@
-.home h1 {
+h1 {
   margin-top: 0;
   font-weight: 300;
   letter-spacing: 8px;
   font-family: "Muli", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
 }
 
-.home #body-inner > :not(.griddy) {
+#body-inner > :not(.griddy) {
   display: none;
 }
 
-.home footer, 
-.home #navigation {
+footer, 
+#navigation {
   display: none;
 }
 
-.home #content-wrapper.padding {
+#content-wrapper.padding {
   padding-bottom: 1rem;
 }
 
