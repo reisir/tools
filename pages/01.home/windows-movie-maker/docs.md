@@ -9,6 +9,8 @@ But thanks to a user on the [Microsoft community forums](https://answers.microso
 
 ===
 
+![](movie%20maker.png)
+
 ## Windows Essentials latest version 16.4.3528.0331:
 
 English (United Kingdom)
