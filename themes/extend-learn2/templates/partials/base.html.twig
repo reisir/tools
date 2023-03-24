@@ -14,9 +14,6 @@
 			<link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png') }}">
 
 			{% block stylesheets %}
-				{% if page.home() %}
-					{% do assets.addCss('theme://css/home.css',105) %}
-      			{% endif %}
 				{% do assets.addCss('theme://css-compiled/colors.css',103) %}
 				{% do assets.addCss('theme://css-compiled/nucleus.css',102) %}
 				{% do assets.addCss('theme://css-compiled/theme.css',101) %}
