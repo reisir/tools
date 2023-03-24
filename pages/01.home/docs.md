@@ -14,8 +14,6 @@ content:
 
 #### Guides and resources for editors {.center .nomobile .subtitle}
 
-!!!! Get rid of those black bars in Vegas!: [Removing Black Bars](https://amv.tools/vegas-pro-extra/removing-black-bars)
-
 ===
 
 <div class="griddy" style="margin: 2rem 0;" >
