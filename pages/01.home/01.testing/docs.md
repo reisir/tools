@@ -20,10 +20,6 @@ metadata:
 
 icons in image descriptions do not work :/
 
-heheh i gave the grav user permission to use the ssh key pls work
-
-what the fuck
-
 ![[i=untwirl]](vlcsnap.png "vlcsnap")
 
 <div class="griddy">
