@@ -1,10 +1,10 @@
 {% extends 'default.html.twig' %}
 
-			{% block stylesheets %}
-				{% if page.home() %}
-					{% do assets.addCss('theme://css/home.css',105) %}
-      			{% endif %}
-{{ parent() }}
+{% block stylesheets %}
+  {% if page.home() %}
+    {% do assets.addCss('theme://css/home.css',105) %}
+  {% endif %}
+  {{ parent() }}
 {% endblock %}
 
 {% set content = page.content|slice(page.summary|length) %}

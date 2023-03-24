@@ -5,12 +5,9 @@ h1 {
   font-family: "Muli", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
 }
 
-#body-inner > :not(.griddy) {
-  display: none;
-}
-
 footer, 
-#navigation {
+#navigation,
+#summary {
   display: none;
 }
 
