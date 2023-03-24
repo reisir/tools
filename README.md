@@ -4,9 +4,9 @@ https://amv.tools/ repo. Mostly automatic updates with the GitSync plugin to bac
 
 ## Modifications
 
-Modifications I've made to plugins / themes that might be useful to other people
+Modifications and fixes I've made to plugins / themes that might be useful to other people.
 
-### Editor plugin changes
+### Only allow Editor plugin for super users
 
 The [Editor plugin by TwelveTone](https://www.twelvetone.tv/docs/developer-tools/grav-plugins/grav-editor-plugin) is powerful and borderline required if you're going to be customizing your theme and stuff. Unfortunately it just lets any user on your site edit any file, including .php files (the admin plugin included). These three lines of code fix that by only allowing admins to use the plugin.
 
@@ -21,9 +21,11 @@ if (!$this->grav['user']->authorize('admin.super')) {
 
 Place this in `user/plugins/editor/editor.php`, in the `onPluginsInitialized()` function, after it does the `isAdmin()` check. Check the [[commit]](https://github.com/reisir/tools/commit/8cc4f2f8b757a7f416f40e2448c05eb826c2e083#diff-e6d5beb6b8e50de531acdad73dac93c272a46e62b9bce55835cf50904666b29aR172-R176) if you need to.
 
-### CSS to fix a bunch of unnecessary overflow showing up in the admin panel
+### Editor plugin CSS fix
 
-You can put this in the Custom CSS in the Admin plugins Customization tab. 
+The Editor plugin also makes a bunch of stuff in the admin panel break styling wise. This is most apparent by a ton of scrollbars appearing on almost every page.
+
+You can put this fix in the Custom CSS in the Admin plugins Customization tab.
 
 ```css
 /* Fix hover top hints causing overflow */
@@ -34,7 +36,6 @@ You can put this in the Custom CSS in the Admin plugins Customization tab.
 .hint--top::before {
   left: 25%;
 }
-
 
 /* Fix hover bottom hints causing overflow */
 .admin-block {
@@ -57,12 +58,11 @@ You can put this in the Custom CSS in the Admin plugins Customization tab.
 .hint--bottom:hover::before {
   transform: rotate(-90deg);
 }
+```
 
+### Admin panel custom styles
 
-/*
- * OPTIONAL STYLING
- */
-
+```css
 /* Make the editor area larger by default */
 .grav-editor-content .grav-editor [data-grav-editor],
 .grav-editor-content .CodeMirror  {
@@ -137,3 +137,7 @@ I use this as a user style in my browser, not in the admin custom css directly.
     background: transparent;
 }
 ```
+
+### Git Sync "unable to push" fix
+
+If you run `git status` in your user folder and it says "plugins/problems" is modified (but won't show you what has been modified), it's likely because the problems plugin is a git repo in of itself. You can ignore this error by running `git config diff.ignoreSubmodules dirty` in your user folder.
