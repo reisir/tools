@@ -17,3 +17,8 @@ A very scuffed way to document changes I make to the theme / stylesheets and to 
 * Changed admin theme
 * Fixed some unnecessary scrollbars showing up in the admin panel (because of the editor plugin)
 * Fixed all unnecessary scrollbars showing up in the admin panel (because of the editor plugin)
+
+## 24.03.2023
+
+* New griddy template, only used for the front page at the moment
+    * The griddy template requires a collection and for all the pages to have an image and a summary delimiter. Do not use it if you don't know what those are or are unsure if all the pages in the collection fulfill the requirements

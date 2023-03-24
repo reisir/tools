@@ -1,11 +1,12 @@
-#content-wrapper.padding {
-  padding-bottom: 1rem;
+#summary {
+  margin-top: -1.5rem;
 }
 
 .griddy {  
   --grid-layout-gap: 5rem;
   --grid-column-count: 3;
-  --grid-item--min-width: 300px;
+  --grid-item--min-width: 280px;
+  --grid-image-max-height: 14rem;
 
   --gap-count: calc(var(--grid-column-count) - 1);
   --total-gap-width: calc(var(--gap-count) * var(--grid-layout-gap));
@@ -22,7 +23,7 @@
 .griddy img {
     width: auto;
     max-width: 100%;
-    max-height: 16rem;
+    max-height: var(--grid-image-max-height);
     border-radius: 1rem;
   	margin-bottom: 0.5rem;
 }
