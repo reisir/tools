@@ -1,3 +1,13 @@
+.home h1 {
+  font-weight: 300;
+  letter-spacing: 8px;
+  font-family: "Muli", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+}
+
+.home #navigation {
+  display: none;
+}
+
 div.row {
     display: flex;
     flex-direction: row;
