@@ -17,11 +17,16 @@ Owner, developer, maintainer, hoster and main writer of <span style="letter-spac
 
 Unbothered, moisturized, happy, in my lane, focused, flourishing.
 
+### amv.tools on GitHub
+
+https://github.com/reisir/tools
+
 ### Secret internal pages shhh
 
 * [Writers guide](/writers-guide)
 * [Testing](/testing)
-* [TO-DO](/todo)
+* [TO-DO](/todo))
+* [changelog](/changelog)
 
 ### Other projects
 
