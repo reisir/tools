@@ -22,3 +22,7 @@ A very scuffed way to document changes I make to the theme / stylesheets and to 
 
 * New griddy template, only used for the front page at the moment
     * The griddy template requires a collection and for all the pages to have an image and a summary delimiter. Do not use it if you don't know what those are or are unsure if all the pages in the collection fulfill the requirements
+
+## 26.03.2023
+
+* Reorganized styles and enabled CSS pipeline to combine and minimize all stylesheets into one file

@@ -14,6 +14,7 @@
 			<link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png') }}">
 
 			{% block stylesheets %}
+			<!-- Stylesheets -->
 				{% do assets.addCss('theme://css-compiled/colors.css',103) %}
 				{% do assets.addCss('theme://css-compiled/nucleus.css',102) %}
 				{% do assets.addCss('theme://css-compiled/theme.css',101) %}
@@ -21,7 +22,8 @@
 				{% do assets.addCss('theme://css/authors.css',100) %}
 				{% do assets.addCss('theme://css/featherlight.min.css') %}
 
-				{% if browser.getBrowser == 'msie' and browser.getVersion >= 8 and browser.getVersion <= 9 %}
+				{% if browser.getBrowser == 'msie' and browser.getVersion >= 8 and browser.getVersion <= 9 %}                                                                
+					<!-- IE -->
 					{% do assets.addCss('theme://css/nucleus-ie9.css') %}
 					{% do assets.addCss('theme://css/pure-0.5.0/grids-min.css') %}
 					{% do assets.addJs('theme://js/html5shiv-printshiv.min.js') %}
@@ -29,19 +31,19 @@
 			{% endblock %}
 
 			{% block javascripts %}
-				{% do assets.addJs('jquery',101) %}
+				<!-- Scripts -->
+      			{% do assets.addJs('jquery',101) %}
 				{% do assets.addJs('theme://js/modernizr.custom.71422.js',100) %}
 				{% do assets.addJs('theme://js/featherlight.min.js') %}
 				{% do assets.addJs('theme://js/clipboard.min.js') %}
 				{% do assets.addJs('theme://js/jquery.scrollbar.min.js') %}
 				{% do assets.addJs('theme://js/learn.js') %}
+				<!-- Font Awesome -->
+				<script src="https://kit.fontawesome.com/d67576f6d7.js" crossorigin="anonymous"></script>
+				<!-- GoatCounter -->
+				<script data-goatcounter="https://goat.amv.tools/count" async src="//goat.amv.tools/count.js"></script>
 			{% endblock %}
 
-			<!-- Font Awesome -->
-			<script src="https://kit.fontawesome.com/d67576f6d7.js" crossorigin="anonymous"></script>
-			<!-- GoatCounter -->
-			<script data-goatcounter="https://goat.amv.tools/count" async src="//goat.amv.tools/count.js"></script>
-      
 			{% block assets deferred %}
 				{{ assets.css()|raw }}
 				{{ assets.js()|raw }}
