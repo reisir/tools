@@ -92,10 +92,6 @@ Also, here's how stupid it would look if I did the same thing, aka. windowboxed 
 * You can access the composition settings to set the correct dimensions for your composition in After Effects with [kbd="ctrl + K"/].
 * All of what was said before also applies to the legacy 4:3 format. Do not render 4:3 windowboxed inside 16:9. Render it as 4:3. Thank you. 
 
-## Example of acceptable black bars (pop out effect)
-
-[plugin:youtube](https://www.youtube.com/embed/OVuCm6qDFDo)
-
 <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js" defer></script>
 
 <script defer>
