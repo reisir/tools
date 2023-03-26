@@ -24,6 +24,8 @@ testing
 
 icons in image descriptions do not work :/
 
+discord server
+
 ![[i=untwirl]](vlcsnap.png "vlcsnap")
 
 <div class="griddy">
