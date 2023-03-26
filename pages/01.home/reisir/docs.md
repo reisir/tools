@@ -38,6 +38,8 @@ Unbothered, moisturized, happy, in my lane, focused, flourishing.
 
 [plugin:youtube](https://youtu.be/hYSItlWvu0c)
 
+[plugin:youtube](https://youtu.be/oXrbMDww9ss)
+
 [section name="signature"]
 
 I wish I could get this footer to stay at the bottom on [short pages](/vegas-pro)...
