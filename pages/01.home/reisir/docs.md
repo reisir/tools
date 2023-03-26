@@ -5,7 +5,7 @@ taxonomy:
         - author
     authors:
         - reisir
-media_order: 'cheat pharmacist medicine god.png,pltpltprlp.jpg,signature.jpg,cheat pharmacist medicine god square.png'
+media_order: 'cheat pharmacist medicine god square.png,cheat pharmacist medicine god.png,pltpltprlp.jpg,signature.jpg'
 visible: false
 metadata:
     robots: noindex
