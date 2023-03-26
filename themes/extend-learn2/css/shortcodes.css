@@ -1,0 +1,70 @@
+/* Row shortcode */
+div.row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  gap: 1.7rem;
+  width: 100%;
+  margin-bottom: 1.7rem;
+}
+div.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: flex-start;
+  gap: 1.7rem;
+  width: 100%;
+}
+div.column * {
+  margin: 0;
+}
+div.column > * {
+  width: 100%;
+}
+/* Desktop overrides */
+@media only screen and (min-width: 1200px) {
+  div.row {
+    flex-wrap: nowrap;
+  }
+  div.column {
+    min-width: 20vw;
+    max-width: 100%;
+    width: max-content;
+  }
+  .column.bottom {
+    align-self: flex-end;
+  }
+}
+
+/* Icon shortcode */
+img.icon {
+  display: inline-block !important;
+  vertical-align: text-top;
+  background-color: var(--tools-background);
+  border-radius: 0.25rem;
+  padding: 0 !important;
+  margin: 0 !important;
+  height: 1.25rem;
+}
+/* Icon specific styles */
+img.icon.untwirl {
+  padding-top: 0.2rem !important;
+  border-radius: 0.25rem;
+  background-color: var(--tools-background);
+}
+
+/* KBD shortcode */
+kbd {
+  padding: 0.25rem 0.5rem;
+  font-weight: bold;
+  border-radius: 0.4rem;
+}
+/* Desktop overrides */
+@media only screen and (min-width: 780px) {
+  kbd,
+  code {
+    white-space: nowrap;
+  }
+}

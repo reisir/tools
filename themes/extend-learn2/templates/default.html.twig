@@ -1,8 +1,15 @@
 {% extends 'partials/base.html.twig' %}
 
+{# Get content without the summary #}
+{% set nosummary = page.content|slice(page.summary|length) %}
 {% block content %}
-	<h1>{{ page.title }}</h1>
-	{{ page.content|raw }}
+	<div id="summary">
+		<h1>{{ page.title }}</h1>
+		{{ page.summary|raw }}
+	</div>
+	<div id="content">
+		{{ nosummary|raw }}
+	</div>
 	{% block extra %}{% endblock %}
 {% endblock %}
 

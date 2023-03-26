@@ -2,29 +2,17 @@
 
 {# Add template specific stylesheet #}
 {% block stylesheets %}
-	{% if page.home() %}
-		{% do assets.addCss('theme://css/griddy.css',99) %}
-	{% endif %}
+	{% do assets.addCss('theme://css/griddy.css',99) %}
 	{{ parent() }}
 {% endblock %}
 
-{# Get content without the summary #}
-{% set content = page.content|slice(page.summary|length) %}
-
-{% block content %}
-	<div id="summary">
-		<h1>{{ page.title }}</h1>
-		{{ page.summary|raw }}
-	</div>
-	<div id="pre-griddy">
-		{{ content|raw }}
-	</div>
-	<div class="griddy">
+{% block extra %}
+	<div id="extra" class="griddy">
 		{% for item in page.collection %}
 			<a href="{{ item.url }}">
 				{{ item.media.images|first|raw }}
 				<h3 class="griddy-item-title">{{ item.title }}</h3>
-				<p class="griddy-item-summary">{{ item.summary|raw }}</p>
+				<div class="griddy-item-summary">{{ item.summary|raw }}</div>
 			</a>
 		{% endfor %}
 	</div>

@@ -12,6 +12,10 @@ content:
         by: default
 ---
 
-#### Guides and resources for editors {.center .nomobile .subtitle}
+#### Guides and resources for editors
 
 ===
+
+<div id="title-container">
+<span id="title"><span id="spaced">amv.tools :</span> guides and resources for editors</span>
+<div>

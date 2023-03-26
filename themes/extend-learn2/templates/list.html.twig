@@ -1,5 +1,11 @@
 {% extends 'default.html.twig' %}
 
+{# Add template specific stylesheet #}
+{% block stylesheets %}
+	{% do assets.addCss('theme://css/list.css',99) %}
+	{{ parent() }}
+{% endblock %}
+
 {% set collection = page.collection() %}
 {% if collection is empty %}
 	{% set options = { items: {'@self.children':''}, 'filter' : { visible: true, published: true } } %}
@@ -7,7 +13,7 @@
 {% endif %}
 
 {% block extra %}
-	<div class="list">
+	<div id="extra" class="list">
 		{% for page in collection %}
 			{% include 'partials/item.html.twig' with {'page':page} %}
 		{% endfor %}

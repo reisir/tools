@@ -1,0 +1,111 @@
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.information-card * {
+  margin: 0;
+  padding: 0;
+}
+
+.information-card {
+  width: 100%;
+  justify-self: flex-end;
+  margin: auto 0 0 0;
+}
+
+/* Desktop overrides */
+@media only screen and (min-width: 780px) {
+  .information-card {
+    max-width: 20cm;
+  }
+}
+
+.information-card .page-information {
+  background-color: #1694ca;
+  width: 100%;
+  padding: 0.25rem 1rem;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.information-card .page-information a,
+.information-card .page-information a:hover,
+.information-card .page-information a:active,
+.information-card .page-information a:visited {
+  color: white;
+}
+.information-card .page-information span {
+  margin-right: 0.5rem;
+}
+
+/* Logo styles */
+.page-information .logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.4rem;
+}
+.page-information a.logo {
+  display: block;
+}
+
+/* Author information containers */
+.authors {
+  background-color: #38424d;
+}
+.authors .author-profile {
+  padding: 1rem;
+}
+
+/* Author profile rows and columns */
+.authors .author-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.authors .author-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 1rem;
+}
+
+/* Profile picture */
+.author-profile .author-figure {
+  position: relative;
+}
+.author-profile .author-figure img {
+  border-radius: 100%;
+  max-width: 5rem;
+  min-width: 3rem;
+}
+
+/* Profile picture caption */
+.author-profile .author-name {
+  background-color: #1694ca;
+  border-radius: 4px 4px 4px 0px;
+  color: white;
+  padding: 0 0.5rem;
+  position: absolute;
+  top: -0.25rem;
+  left: calc(100% - 1rem);
+}
+
+.author-information {
+  padding-top: 1.5rem;
+}
+
+/* Reset theme image settings */
+.author-profile .author-figure img,
+.author-profile .author-signature figure {
+  margin: 0 !important;
+  padding: 0 !important;
+}
