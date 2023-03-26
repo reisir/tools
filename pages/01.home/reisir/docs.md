@@ -42,7 +42,7 @@ Unbothered, moisturized, happy, in my lane, focused, flourishing.
 
 [plugin:youtube](https://youtu.be/7TSC84mRcbA)
 
-[plugin:youtube](https://youtu.be/MWh2DNUQNrQ)
+[plugin:youtube](https://youtu.be/YfxyCBhPCic)
 
 [section name="signature"]
 
