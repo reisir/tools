@@ -1,5 +1,5 @@
 ---
 title: discord
-redirect: 'https://amv.tools/discord'
+redirect: 'https://discord.gg/d7WvPupRya'
 ---
 
