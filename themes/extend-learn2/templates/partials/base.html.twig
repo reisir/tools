@@ -5,7 +5,11 @@
 		{% block head %}
 			<meta charset="utf-8"/>
 			<title>
-				{% if header.title %}{{ header.title }} | {% endif %}{{ site.title }}
+				{% if header.title %}
+					{{ header.title }}
+					|
+				{% endif %}
+				{{ site.title }}
 			</title>
 			{% include 'partials/metadata.html.twig' %}
 			<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no"/>
@@ -25,7 +29,7 @@
 
 			{% block javascripts %}
 				<!-- Scripts -->
-      			{% do assets.addJs('jquery',101) %}
+				{% do assets.addJs('jquery',101) %}
 				{% do assets.addJs('theme://js/modernizr.custom.71422.js',100) %}
 				{% do assets.addJs('theme://js/featherlight.min.js') %}
 				{% do assets.addJs('theme://js/clipboard.min.js') %}
@@ -61,9 +65,13 @@
 			<section id="body">
 				<div id="overlay"></div>
 				<div id="content-wrapper" class="padding highlightable">
-					<a href="#" id="sidebar-toggle" data-sidebar-toggle><i class="fa fa-2x fa-bars"></i></a>
-					{% block content %}{% endblock %}
-                  	{% block footer %}{% endblock %}
+					<a href="#" id="sidebar-toggle" data-sidebar-toggle>
+						<i class="fa fa-2x fa-bars"></i>
+					</a>
+					<div id="content">
+						{% block content %}{% endblock %}
+					</div>
+					{% block footer %}{% endblock %}
 				</div>
 				{% block navigation %}{% endblock %}
 			</section>

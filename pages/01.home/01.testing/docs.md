@@ -74,11 +74,11 @@ grav processesed the code and cached the result lmao so it only updates whenever
 
 [assets=inlineCss]
 /* Epic filters */
-section#body div#body-inner {
+section#body div#content {
     filter: none;
     transition: all 0.5s ease;
 }
-.sidebar-hidden section#body div#body-inner {
+.sidebar-hidden section#body div#content {
     filter: saturate(200%) blur(150px);
 }
 [/assets]
