@@ -1,6 +1,7 @@
 ---
 title: 'Windows Movie Maker'
 media_order: 'movie maker.png'
+visible: false
 ---
 
 Windows Essentials 2012 is [no longer available](https://support.microsoft.com/en-us/windows/windows-essentials-2707b879-5004-4349-c4a4-e5900945f2a9)
