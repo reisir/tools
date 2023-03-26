@@ -6,10 +6,10 @@
 	{% set collection = page.collection(options) %}
 {% endif %}
 
-{% block extra %}	
+{% block extra %}
 	<div class="list">
-      {% for page in collection %}
-          	{% include 'partials/item.html.twig' with {'page':page} %}
-      {% endfor %}
+		{% for page in collection %}
+			{% include 'partials/item.html.twig' with {'page':page} %}
+		{% endfor %}
 	</div>
 {% endblock %}

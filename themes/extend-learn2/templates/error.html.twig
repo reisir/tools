@@ -4,6 +4,7 @@
 {% block navigation %}{% endblock %}
 
 {% block content %}
-	<h1>{{ 'PLUGIN_ERROR.ERROR'|t }} {{ header.http_response_code }}</h1>
+	<h1>{{ 'PLUGIN_ERROR.ERROR'|t }}
+		{{ header.http_response_code }}</h1>
 	{{ page.content|raw }}
 {% endblock %}
