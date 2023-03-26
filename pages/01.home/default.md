@@ -18,6 +18,6 @@ content:
 
 <div id="title-container">
 <span id="title"><span id="spaced">amv.tools :</span> guides and resources for editors</span>
-<div>
+</div>
 
 !!!! Discord server launched: https://amv.tools/discord
