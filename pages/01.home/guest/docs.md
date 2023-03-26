@@ -10,6 +10,10 @@ metadata:
     robots: noindex
 ---
 
+Guest author page.
+
+===
+
 [section name="signature"]
 
 Post written by a guest author.
