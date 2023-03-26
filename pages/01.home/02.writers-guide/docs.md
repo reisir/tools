@@ -40,6 +40,16 @@ The page editor has a media upload field under the main content. You can use it 
  - Please refrain from using meta text eg. "in this guide" or personal language eg. "now I will do x". If you see these on pages I've written, complain to me.
  - You don't have to worry too much about the language / style you use when making guides. I will go over and edit them whether you want to or not. Except blog posts.
 
+All pages require a summary. A summary is defined with the summary delimiter `===`. The page summary should ideally summarize the pages topic. It's also used for embedding the page on other platforms etc. 
+
+This pages summary for reference:
+
+```md
+	amv.tools is built with [Grav](https://getgrav.org/). It's made with [PHP](https://www.php.net/) and it runs on my server, behind an [nginx](https://www.nginx.com/) reverse proxy.
+	
+	===
+```
+
 ### Writing tips
 
  - You can save the content without reloading the editor with [kbd="ctrl + shift + S"]
