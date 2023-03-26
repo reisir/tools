@@ -9,7 +9,7 @@ metadata:
     robots: noindex
 ---
 
-amv.tools is built with [Grav](https://getgrav.org/). It's made with [PHP](https://www.php.net/) and it runs on my server, behind an [nginx](https://www.nginx.com/) reverse proxy.
+amv.tools is built with [Grav](https://getgrav.org/). Grav is made with [PHP](https://www.php.net/), it runs on my server (an old PC), behind an [nginx](https://www.nginx.com/) reverse proxy. In addition to all this, amv.tools uses [goatcounter](https://www.goatcounter.com/) to track page views. See [privacy](https://amv.tools/privacy) for more detailed info.
 
 ===
 
