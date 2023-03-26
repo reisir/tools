@@ -1,5 +1,6 @@
 ---
 title: changelog
+visible: false
 ---
 
 A very scuffed way to document changes I make to the theme / stylesheets and to make the GitSync plugin notice the changes.
