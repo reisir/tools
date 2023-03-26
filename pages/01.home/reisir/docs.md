@@ -15,6 +15,8 @@ metadata:
 
 Owner, developer, maintainer, hoster and main writer of <span style="letter-spacing: 4px; padding: 0 .5rem; ">amv.tools</span>
 
+===
+
 Unbothered, moisturized, happy, in my lane, focused, flourishing.
 
 ### amv.tools on GitHub
