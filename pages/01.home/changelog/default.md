@@ -26,3 +26,4 @@ A very scuffed way to document changes I make to the theme / stylesheets and to 
 ## 26.03.2023
 
 * Reorganized styles and enabled CSS pipeline to combine and minimize all stylesheets into one file
+	* These stylesheet and template changes require all pages to have a summary delimiter or stuff breaks
