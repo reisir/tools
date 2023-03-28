@@ -11,7 +11,7 @@ slug: compositing
 routes: {  }
 ---
 
-<span id="composition-summary">Going over compositing essentials, precompositions and project navigation.</span>
+Going over compositing essentials, precompositions and project navigation.
 
 ===
 
@@ -60,10 +60,7 @@ To make your navigation and general life experience better, you should label the
  * None of this matters 99% of the time.
 
 [assets=inlineCss]
-.composition h1:first-child {
-	display: none;
-}
-.composition #composition-summary {
+.composition #summary {
 	display: none;
 }
 .composition .definition {

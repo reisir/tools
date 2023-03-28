@@ -6,7 +6,7 @@ taxonomy:
     authors:
         - reisir
 slug: masking
-media_order: 'pen tool.jpg,feather.gif,masking.gif,mask mode.gif,multiple masks.png'
+media_order: 'pen tool.jpg,masking.jpg,masking.gif,feather.gif,mask mode.gif,multiple masks.png'
 metadata:
     header_image_file: 'https://amv.tools/ae/masking/pen%20tool.jpg'
 routes: {  }

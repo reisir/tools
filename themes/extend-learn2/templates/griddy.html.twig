@@ -6,14 +6,31 @@
 	{{ parent() }}
 {% endblock %}
 
+{# Add template specific javascript #}
+{% block javascripts %}
+	{{ parent() }}
+	{% do assets.addJs('theme://js/griddy.js') %}
+{% endblock %}
+
 {% block extra %}
 	<div id="extra" class="griddy">
 		{% for item in page.collection %}
-			<a href="{{ item.url }}">
-				{{ item.media.images|first|raw }}
+			{% set preview = item.media.images|first %}
+			{% if not preview %}
+				{% set preview = item.media|first %}
+			{% endif %}
+
+			<div class="griddy-item" data-href="{{ item.url }}">
+				<a href="{{ item.url }}">
+					<div class="griddy-media-container">
+						{{ preview.html('', '', 'griddy-media')|raw }}
+					</div>
+				</a>
 				<h3 class="griddy-item-title">{{ item.title }}</h3>
-				<div class="griddy-item-summary">{{ item.summary|raw }}</div>
-			</a>
+				<div class="griddy-item-summary">
+					<span>{{ item.summary|safe_truncate_html(24)|raw }}</span>
+				</div>
+			</div>
 		{% endfor %}
 	</div>
 {% endblock %}

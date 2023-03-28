@@ -1,12 +1,12 @@
 ---
 title: 'Text layers'
-media_order: 'horizontal_text.png,text.png,paragraph.png,character.png'
+media_order: 'character.png,paragraph.png,horizontal_text.png,text.png'
 taxonomy:
     authors:
         - reisir
 ---
 
-To create a text layer, you can use either the text tool [kbd="ctrl + T"/] or the new layer menu [kbd="ctrl + alt + shift + T"/]. The layer menu creates a centered point text layer while the text tool lets you create a paragraph text box in any location. The difference between point and paragraph text is that paragraph text wraps the text inside the text box automatically. Point text doesn't wrap at all, which can be useful when working with [text animators](/ae/text/animators) and path text. You can convert point text to paragraph text and vice versa by right clicking the text layer in the preview panel while not editing the text.
+To create a text layer, you can use either the text tool [kbd="ctrl + T"/] or the new layer menu [kbd="ctrl + alt + shift + T"/]. The layer menu creates a centered point text layer while the text tool lets you create a paragraph text box in any location. The difference between point and paragraph text is that paragraph text wraps the text inside the text box automatically. Point text doesn't wrap at all, which can be useful when working with text animators and path text. You can convert point text to paragraph text and vice versa by right clicking the text layer in the preview panel while not editing the text.
 
 ===
 

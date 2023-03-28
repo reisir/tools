@@ -13,6 +13,9 @@ routes:
 body_classes: no-anchors
 metadata:
     'twitter:card': summary_large_image
+content:
+    items:
+        - '@self.children'
 ---
 
 A course to help intermediate / advanced editors get started with After Effects.
