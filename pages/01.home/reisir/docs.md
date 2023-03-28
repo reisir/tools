@@ -25,16 +25,12 @@ Unbothered, moisturized, happy, in my lane, focused, flourishing.
 * [Testing](/testing)
 * [TO-DO](/todo)
 * [changelog](/changelog)
-
-### Other projects
-
-* clippers https://clippers.amv.tools/
 * amv.tools on github https://github.com/reisir/tools
 
 ### Personal
 
-* [Music playlist](https://www.youtube.com/playlist?list=PLw7nHTB6FiG8TAMELwKsBIYgkUguU00OA)
 * [Good AMVs playlist](https://www.youtube.com/playlist?list=PLw7nHTB6FiG9FtVNTn-2TubI2KfjHk4RM)
+* [Music playlist](https://www.youtube.com/playlist?list=PLw7nHTB6FiG8TAMELwKsBIYgkUguU00OA)
 
 [plugin:youtube](https://youtu.be/hYSItlWvu0c)
 
