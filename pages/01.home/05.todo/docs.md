@@ -10,10 +10,6 @@ amv.tools TO-DO
 
 ===
 
-## Internal
-
-* Figure out how to make goatcounter start automatically on the server.
-
 ## Vegas Pro beginners guide to editing
 
  - Masking
