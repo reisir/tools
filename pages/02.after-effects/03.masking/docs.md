@@ -44,7 +44,7 @@ While you're masking and especially when you're animating a mask, you'll want to
 
 After Effects lets you create multiple, separately controlled masks. So you can mask an object from start to finish and add another mask later, without affecting the existing mask(s).
 
-In Vegas, you can draw a mask around your subject, move to the next frame and reset the mask. This is not possible in After Effects. Resetting in AE makes the mask a square, which means you cannot make new masks for every frame. You must move the points of the previous frame to fit the next frame. You can add and [\delete*](/after-effects-extra/preferences) points between keyframes.
+In Vegas, you can draw a mask around your subject, move to the next frame and reset the mask. This is not possible in After Effects. Resetting in AE makes the mask a square, which means you cannot make new masks for every frame. You must move the points of the previous frame to fit the next frame. You can add and [delete*](/after-effects-extra/preferences) points between keyframes.
 
 Combined, these two differences result in a very different masking workflow in AE compared to Vegas.
 
