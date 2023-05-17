@@ -14,6 +14,7 @@ amv.tools TO-DO
 
  - Masking
  - Effects
+ 	- Glitch effect
  - Media generators (text, solid etc.)
  - Track effects
  - Parent tracks
