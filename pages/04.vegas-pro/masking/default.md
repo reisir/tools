@@ -2,7 +2,7 @@
 title: Masking
 published: true
 visible: false
-media_order: 'maskingexample.gif,masklayer.png,masking.gif'
+media_order: 'maskingexample.gif,masklayer.png,masking.gif,options.png'
 taxonomy:
     authors:
         - bastiera
@@ -32,6 +32,8 @@ You can also drag any of your anchoir point to another location, select the Norm
 
 You can also give it some angle (I couldn't find a way to phrase this) by dragging the anchor point with the Anchor Creation Tool.
 
+Finally, when your masking is done, you can play around with the settings on the left, to make it look better, or change the masking mode to negative...
+
 
 
 
@@ -39,6 +41,8 @@ You can also give it some angle (I couldn't find a way to phrase this) by draggi
 [divider/]
 
 ![creating a mask with the anchor creation tool](maskingexample.gif "Anime: Samurai Champloo")
+
+![options](options.png)
 
 [/row]
 
