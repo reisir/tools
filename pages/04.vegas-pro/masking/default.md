@@ -14,3 +14,5 @@ Masking in Vegas Pro is done using the Anchor Creation Tool, which creates the b
 ![creating a mask with the anchor creation tool](maskingexample.gif "Anime: Samurai Champloo")
 
 ## Creating and animating masks
+
+Select the event that you wish to mask on its track and go to the [Pan/Crop menu](/vegas-pro/basics)
