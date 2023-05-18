@@ -58,4 +58,4 @@ If your object has a complicated shape, masking it will be tedious. You can make
 
 ### How to animate your mask
 
-You can see our other [guide about animating](https://amv.tools/vegas-pro/pan-and-crop#animating). Vegas will automatically insert keyframes when you make changes
+You can see our other [guide about animating](https://amv.tools/vegas-pro/pan-and-crop#animating). Vegas will automatically insert keyframes when you make changes. You can modify your mask for each frame or even reset the mask.
