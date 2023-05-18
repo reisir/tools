@@ -146,4 +146,4 @@ A table of all icons is available at the bottom of this page.
 | vpgear  (vegas pro gear)                   | [i=vpgear/]     |
 | vppen   (vegas pro anchor creation tool)   | [i=vppen/]      |
 | vpkeyframe                                 | [i=vpkeyframe/] |
-| syncCursor                             | [i=syncCursor/] & [i=synccursor] |
+| syncCursor                                 | [i=syncCursor/] |
