@@ -147,3 +147,5 @@ A table of all icons is available at the bottom of this page.
 | vppen   (vegas pro anchor creation tool)   | [i=vppen/]      |
 | vpkeyframe                                 | [i=vpkeyframe/] |
 | syncCursor                                 | [i=syncCursor/] |
+| vpdelete                                   | [i=vpdelete/]   |
+| vpedit                                     | [i=vpedit/]     |
