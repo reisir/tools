@@ -21,8 +21,11 @@ Select the event that you wish to mask on its track and go to the [Pan/Crop menu
 
 ![tick "mask" and select the mask layer](masklayer.png)
 
-Select the Anchor Creation Tool [i=vppen/] on the left of the menu and proceed to mask. The mask can be as precise as you want depending on how many points you make. To see your mask on the preview, make sure to press [i=syncCursor/]
+Select the Anchor Creation Tool [i=vppen/] on the left of the menu and proceed to mask. The mask can be as precise as you want depending on how many points you make. To see your mask on the preview, make sure to press [i=syncCursor/]. You can remove one of your anchoir points by right clicking on it or by using the Anchor Deletion Tool.
 
 ![creating a mask with the anchor creation tool](maskingexample.gif "Anime: Samurai Champloo")
+
+
+
 
 ### How to animate your mask
