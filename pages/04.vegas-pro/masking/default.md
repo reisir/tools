@@ -3,6 +3,9 @@ title: Masking
 published: true
 visible: false
 media_order: 'maskingexample.gif,masklayer.png'
+taxonomy:
+    authors:
+        - bastiera
 ---
 
 Bézier masking in Vegas Pro, the anchor creation tool and more.
