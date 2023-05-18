@@ -120,27 +120,30 @@ A table of all icons is available at the bottom of this page.
 
 ### Available [raw][i][/raw]cons
 
-| Name                     | Icon            |
-| ------------------------ | --------------- |
-| 3d                       | [i=3d/]         |
-| alias                    | [i=alias/]      |
-| frame                    | [i=frame/]      |
-| index                    | [i=index/]      |
-| moblur                   | [i=moblur/]     |
-| shy                      | [i=shy/]        |
-| speaker                  | [i=speaker/]    |
-| stopwatch                | [i=stopwatch/]  |
-| untwirl                  | [i=untwirl/]    |
-| adjustment               | [i=adjustment/] |
-| eye                      | [i=eye/]        |
-| fx                       | [i=fx/]         |
-| lock                     | [i=lock/]       |
-| name                     | [i=name/]       |
-| solo                     | [i=solo/]       |
-| star                     | [i=star/]       |
-| tag                      | [i=tag/]        |
-| text                     | [i=text/]       |
-| vtext (vertical text)    | [i=vtext/]      |
-| pen                      | [i=pen/]        |
-| shape                    | [i=shape/]      |
-| vpgear  (vegas pro gear) | [i=vpgear/]     |
+| Name                                       | Icon            |
+| ------------------------------------------ | --------------- |
+| 3d                                         | [i=3d/]         |
+| alias                                      | [i=alias/]      |
+| frame                                      | [i=frame/]      |
+| index                                      | [i=index/]      |
+| moblur                                     | [i=moblur/]     |
+| shy                                        | [i=shy/]        |
+| speaker                                    | [i=speaker/]    |
+| stopwatch                                  | [i=stopwatch/]  |
+| untwirl                                    | [i=untwirl/]    |
+| adjustment                                 | [i=adjustment/] |
+| eye                                        | [i=eye/]        |
+| fx                                         | [i=fx/]         |
+| lock                                       | [i=lock/]       |
+| name                                       | [i=name/]       |
+| solo                                       | [i=solo/]       |
+| star                                       | [i=star/]       |
+| tag                                        | [i=tag/]        |
+| text                                       | [i=text/]       |
+| vtext (vertical text)                      | [i=vtext/]      |
+| pen                                        | [i=pen/]        |
+| shape                                      | [i=shape/]      |
+| vpgear  (vegas pro gear)                   | [i=vpgear/]     |
+| vppen   (vegas pro anchor creation tool)   | [i=vppen/]      |
+| vpkeyframe                                 | [i=vpkeyframe/] |
+| syncCursor                             | [i=syncCursor/] & [i=synccursor] |
