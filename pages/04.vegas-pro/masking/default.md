@@ -53,4 +53,6 @@ The mask can be as precise as you want depending on how many points you make.
 You should also know that Vegas Pro lets you make multiple mask on the same track easily. In the example you've seen in the abstract, I've used a total of 4 masks, with different settings.
 
 ![An example of several masks](manymasks.png)
+
+If your object has a complicated shape, masking it will be tedious. You can make multiple masks like in the example above, or duplicate your track and do a new mask on this track. For now, masking in Vegas Pro is pretty archaic compared to DaVinci Resolve or After Effects, if you want to mask a moving object with an iregular shape, it'll take you some time.
 ### How to animate your mask
