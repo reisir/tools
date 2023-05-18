@@ -32,15 +32,17 @@ You can also drag any of your anchoir point to another location, select the Norm
 
 You can also give it some angle (I couldn't find a way to phrase this) by dragging the anchor point with the Anchor Creation Tool.
 
-Finally, when your masking is done, you can play around with the settings on the left, to make it look better, or change the masking mode to negative...
-
-
-
-
-
 [divider/]
 
 ![creating a mask with the anchor creation tool](maskingexample.gif "Anime: Samurai Champloo")
+
+[/row]
+
+[row]
+
+Finally, when your masking is done, you can play around with the settings on the left, to make it look better using the feathering, or change the masking mode to negative...
+
+[divider/]
 
 ![options](options.png)
 
