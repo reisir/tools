@@ -1,6 +1,6 @@
 ---
 title: 'Motion Tracking'
-published: false
+published: true
 taxonomy:
     authors:
         - bastiera
