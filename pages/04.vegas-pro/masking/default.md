@@ -24,7 +24,7 @@ Select the event that you wish to mask on its track and go to the [Pan/Crop menu
 ![tick "mask" and select the mask layer](masklayer.png)
 [row]
 
-Select the Anchor Creation Tool [i=vppen/] to initiate your mask and add new anchor points. Clicking on already existing anchor points with the Anchor Deleting Tool[i=vpdelete/] will delete them. To move around, select [i=vpedit/].
+Select the Anchor Creation Tool [i=vppen/] to initiate your mask and add new anchor points. Clicking on already existing anchor points with the Anchor Deleting Tool[i=vpdelete/] will delete them. To move around, select [i=vpedit/]. To close your mask, click on the starting point again.
 
 You can also drag any of your anchoir point to another location by selecting the Normal Edit Tool [i=vpedit/] and dragging it to where you want.
 
@@ -32,7 +32,10 @@ Selecting the Anchor Creation Tool [i=vppen/] and dragging around one of your an
 
 The mask can be as precise as you want depending on how many points you make. If your object has a complicated shape, masking it will be tedious and will be a matter of time.
 
+Vegas Pro lets you make multiple mask on the same track easily. When masking different objects, you can create and manage multiple masks on the same track, or duplicate your track and do a new mask, which can prove useful if you're managing a lot of masks and want to apply different FX to them.
 [divider/]
+
+!! Vegas Pro does not allow you to merge or group different masks together. Make sure that you didn't accidentally start a new mask before finishing the one you initiated.
 
 ![creating a mask with the anchor creation tool](maskingexample.gif "Anime: Samurai Champloo")
 
