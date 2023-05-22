@@ -29,6 +29,8 @@ Select the Anchor Creation Tool [i=vppen/] to initiate your mask add new anchor 
 
 You can also drag any of your anchoir point to another location by selecting the Normal Edit Tool [i=vpedit/] and dragging it to where you want.
 
+Selecting the Anchor Creation Tool [i=vppen/] and dragging around one of your anchor points will create a tangeant, *i.e.* turning any straight line linking your Anchor Points into a curve.
+
 [divider/]
 
 ![creating a mask with the anchor creation tool](maskingexample.gif "Anime: Samurai Champloo")
