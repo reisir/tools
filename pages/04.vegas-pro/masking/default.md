@@ -24,8 +24,7 @@ Select the event that you wish to mask on its track and go to the [Pan/Crop menu
 ![tick "mask" and select the mask layer](masklayer.png)
 [row]
 
-Select the Anchor Creation Tool [i=vppen/] on the left of the menu and proceed to mask. To see your mask on the preview, make sure to press [i=syncCursor/]. 
-
+Select the Anchor Creation Tool [i=vppen/] on the left of the menu and proceed to mask. 
 You can remove one of your anchoir points by using the Anchor Deletion Tool and clicking on it.
 
 You can also drag any of your anchoir point to another location, select the Normal Edit Tool and drag it to where you want.
