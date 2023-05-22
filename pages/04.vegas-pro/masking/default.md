@@ -12,13 +12,13 @@ Bézier masking in Vegas Pro, the anchor creation tool and more.
 
 ===
 
-Masking in Vegas Pro is done using the Anchor Creation Tool, which creates the bézier curves you're used to in other programs. Masking can be done in the Pan/Crop menu or using the Bézier Masking FX. The latter is more useful for motion tracking and will be covered in the [motion tracking guide](/vegas-pro/motion-tracking).
+Masking in Vegas Pro is done using the Anchor Creation Tool, which creates the bézier curves you're used to in other programs. Masking can be done in the Pan/Crop menu or using the Bézier Masking FX. The latter is more useful for [motion tracking](/vegas-pro/motion-tracking).
 
 ![masking in Vegas Pro](masking.gif "Anime: Samurai Champloo")
 
-## Creating and animating masks 
+## How to create a mask
 
-### How to create a mask
+### The Basics
 Select the event that you wish to mask on its track and go to the [Pan/Crop menu](/vegas-pro/pan-and-crop#the-pan-crop-menu). At the bottom of the Pan/Crop menu, make sure to enable the mask layer, then select it.
 
 ![tick "mask" and select the mask layer](masklayer.png)
