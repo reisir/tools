@@ -64,7 +64,7 @@ On the left of the Video Event FX window, you'll see the different settings that
 
 ### Tips
 
-You should also know that Vegas Pro lets you make multiple mask on the same track easily. You can make multiple masks like in the example below, or duplicate your track and do a new mask on this track. In the example you've seen in the abstract, I've used a total of 4 masks, with different settings.
+Depending on the complexity of the object you want to mask, you may have to use multiple masks for a single object. As mentioned, Vegas Pro lets you make multiple mask on the same track easily or duplicate your track and do a new mask on this track. In the example you've seen in the abstract, I've used a total of 4 masks, with different settings.
 
 ![An example of several masks](manymasks.png)
 
