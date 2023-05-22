@@ -35,11 +35,13 @@ The mask can be as precise as you want depending on how many points you make. If
 Vegas Pro lets you make multiple mask on the same track easily. When masking different objects, you can create and manage multiple masks on the same track, or duplicate your track and do a new mask, which can prove useful if you're managing a lot of masks and want to apply different FX to them.
 [divider/]
 
-!! Vegas Pro does not allow you to merge or group different masks together. Make sure that you didn't accidentally start a new mask before finishing the one you initiated.
+
 
 ![creating a mask with the anchor creation tool](maskingexample.gif "Anime: Samurai Champloo")
 
 [/row]
+
+!! Vegas Pro does not allow you to merge or group different masks together. Make sure that you didn't accidentally start a new mask before finishing the one you initiated.
 
 [row]
 
