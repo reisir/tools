@@ -52,9 +52,8 @@ On the left of the Video Event FX window, you'll see the different settings that
 - **Opacity** : As you reduce the opacity of a mask, it becomes more transparent and what's not masked becomes more visible.
 - **Feather** : Feather is a feature that enables you to create a soft or blurred transition between the masked and unmasked areas of your event.
 
-When you're done masking, you may want to use feathering to make your mask look better. Feathering will smoothen the edges of your mask, making it look less sharp and less pixelated and will also help you removing any details you don't want to appear.
+!!!! When you're done masking, you may want to use feathering to make your mask look better. Feathering will smoothen the edges of your mask, making it look less sharp and less pixelated and will also help you removing any details you don't want to appear. Whether you want to feather out or feather in and what percentage of feathering you will apply, will depend on the mask you're doing.
 
-Whether you want to feather out or feather in and what percentage of feathering you will apply, will depend on the mask you're doing.
 [divider/]
 
 ![options](options.png)
