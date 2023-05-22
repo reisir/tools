@@ -43,6 +43,7 @@ Selecting the Anchor Creation Tool [i=vppen/] and dragging around one of your an
 
 When you're done masking, you may want to use feathering to make your mask look better. Feathering will smoothen the edges of your mask, making it look less sharp and less pixelated and will also help you removing any details you don't want to appear.
 
+Whether you want to feather out or feather in and what percentage of feathering you will apply, will depend on the mask you're doing.
 [divider/]
 
 ![options](options.png)
