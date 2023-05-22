@@ -49,7 +49,8 @@ Vegas Pro lets you make multiple mask on the same track easily. When masking dif
 On the left of the Video Event FX window, you'll see the different settings that you can apply to your mask.
 - **Apply to FX** : when activated, this option will make it so your mask only apply to the FX you have on your event.
 - **Mode** : it changes the nature of your mask. **Positive** will make it so only the interior of your mask is visible, **negative** will make it so the interior of your mask disapear. **Disabled** will deactive your mask.
-- **Opacity** : controls 
+- **Opacity** : As you reduce the opacity of a mask, it becomes more transparent and what's not masked becomes more visible.
+- **Feather** : Feather is a feature that enables you to create a soft or blurred transition between the masked and unmasked areas of your event.
 
 When you're done masking, you may want to use feathering to make your mask look better. Feathering will smoothen the edges of your mask, making it look less sharp and less pixelated and will also help you removing any details you don't want to appear.
 
