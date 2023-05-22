@@ -2,7 +2,7 @@
 title: Masking
 published: true
 visible: false
-media_order: 'maskingexample.gif,masklayer.png,masking.gif,options.png,manymasks.png'
+media_order: 'maskingexample.gif,masklayer.png,masking.gif,manymasks.png,options.png'
 taxonomy:
     authors:
         - bastiera
@@ -31,6 +31,8 @@ You can also drag any of your anchoir point to another location by selecting the
 
 Selecting the Anchor Creation Tool [i=vppen/] and dragging around one of your anchor points will create a tangeant, *i.e.* turning any straight line linking your Anchor Points into a curve.
 
+
+
 [divider/]
 
 ![creating a mask with the anchor creation tool](maskingexample.gif "Anime: Samurai Champloo")
@@ -39,7 +41,7 @@ Selecting the Anchor Creation Tool [i=vppen/] and dragging around one of your an
 
 [row]
 
-Finally, when your masking is done, you can play around with the settings on the left, to make it look better using the feathering, or change the masking mode to negative...
+When you're done masking, you may want to use feathering to make your mask look better. Feathering will smoothen the edges of your mask, making it look less sharp and less pixelated and will also help you removing any details you don't want to appear.
 
 [divider/]
 
