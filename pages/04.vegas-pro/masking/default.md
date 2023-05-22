@@ -31,7 +31,7 @@ You can also drag any of your anchoir point to another location by selecting the
 
 Selecting the Anchor Creation Tool [i=vppen/] and dragging around one of your anchor points will create a tangeant, *i.e.* turning any straight line linking your Anchor Points into a curve.
 
-If your object has a complicated shape, masking it will be tedious and will be a matter of time.
+The mask can be as precise as you want depending on how many points you make. If your object has a complicated shape, masking it will be tedious and will be a matter of time.
 
 [divider/]
 
@@ -51,8 +51,6 @@ Whether you want to feather out or feather in and what percentage of feathering 
 [/row]
 
 ### Tips
-
-The mask can be as precise as you want depending on how many points you make.
 
 You should also know that Vegas Pro lets you make multiple mask on the same track easily. You can make multiple masks like in the example below, or duplicate your track and do a new mask on this track. In the example you've seen in the abstract, I've used a total of 4 masks, with different settings.
 
