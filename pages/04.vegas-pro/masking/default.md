@@ -58,7 +58,9 @@ You should also know that Vegas Pro lets you make multiple mask on the same trac
 
 ![An example of several masks](manymasks.png)
 
-If your object has a complicated shape, masking it will be tedious. You can make multiple masks like in the example above, or duplicate your track and do a new mask on this track. For now, masking in Vegas Pro is pretty archaic compared to DaVinci Resolve or After Effects, if you want to mask a moving object with an iregular shape, it'll take you some time.
+You can make multiple masks like in the example above, or duplicate your track and do a new mask on this track. 
+
+If your object has a complicated shape, masking it will be tedious and will be a matter of time.
 
 ### How to animate your mask
 [animating](https://amv.tools/vegas-pro/pan-and-crop#animating) a mask in Vegas Pro is done the same way you would edit any event. Vegas will automatically insert keyframes when you make changes. You can modify your mask for each frame or even reset the mask for each frame.
