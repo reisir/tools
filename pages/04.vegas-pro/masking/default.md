@@ -31,7 +31,7 @@ You can also drag any of your anchoir point to another location by selecting the
 
 Selecting the Anchor Creation Tool [i=vppen/] and dragging around one of your anchor points will create a tangeant, *i.e.* turning any straight line linking your Anchor Points into a curve.
 
-
+If your object has a complicated shape, masking it will be tedious and will be a matter of time.
 
 [divider/]
 
@@ -54,13 +54,11 @@ Whether you want to feather out or feather in and what percentage of feathering 
 
 The mask can be as precise as you want depending on how many points you make.
 
-You should also know that Vegas Pro lets you make multiple mask on the same track easily. In the example you've seen in the abstract, I've used a total of 4 masks, with different settings.
+You should also know that Vegas Pro lets you make multiple mask on the same track easily. You can make multiple masks like in the example below, or duplicate your track and do a new mask on this track. In the example you've seen in the abstract, I've used a total of 4 masks, with different settings.
 
 ![An example of several masks](manymasks.png)
 
-You can make multiple masks like in the example above, or duplicate your track and do a new mask on this track. 
-
-If your object has a complicated shape, masking it will be tedious and will be a matter of time.
+Most of the time, when moving around or zooming on your footage will cause Vegas Pro to lose track of your mask. 
 
 ### How to animate your mask
 [animating](https://amv.tools/vegas-pro/pan-and-crop#animating) a mask in Vegas Pro is done the same way you would edit any event. Vegas will automatically insert keyframes when you make changes. You can modify your mask for each frame or even reset the mask for each frame.
