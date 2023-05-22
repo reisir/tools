@@ -50,6 +50,8 @@ Whether you want to feather out or feather in and what percentage of feathering 
 
 [/row]
 
+### Tips
+
 The mask can be as precise as you want depending on how many points you make.
 
 You should also know that Vegas Pro lets you make multiple mask on the same track easily. In the example you've seen in the abstract, I've used a total of 4 masks, with different settings.
