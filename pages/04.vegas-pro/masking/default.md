@@ -58,7 +58,7 @@ You should also know that Vegas Pro lets you make multiple mask on the same trac
 
 ![An example of several masks](manymasks.png)
 
-Most of the time, when moving around or zooming on your footage will cause Vegas Pro to lose track of your mask. To continue with your mask, hit <kbd>Ctrl + Zt</kbd> until you see the anchor points again, or try double-clicking on your last anchor point with the Normal Edit Tool [i=vpedit/].
+Most of the time, when moving around or zooming on your footage will cause Vegas Pro to lose track of your mask. To continue with your mask, hit <kbd>Ctrl + Z</kbd> until you see the anchor points again, or try double-clicking on your last anchor point with the Normal Edit Tool [i=vpedit/].
 
 ### How to animate your mask
 [animating](https://amv.tools/vegas-pro/pan-and-crop#animating) a mask in Vegas Pro is done the same way you would edit any event. Vegas will automatically insert keyframes when you make changes. You can modify your mask for each frame or even reset the mask for each frame.
