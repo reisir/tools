@@ -35,23 +35,21 @@ The act of composing means combining multiple parts into a complete... compositi
 
 What you are supposed to do, is to cut and arrange your video in Premiere Pro, select all clips belonging to a scene and [kbd="Right click > Replace with After Effects composition"/]. This will send the clips from Premiere into After Effects and replaces the clips in Premiere with a linked AE composition. This way you're using Premiere as your main project and sending bits of it to AE for post production. You can also just send the entire project into AE and work with it that way. [That's the way I do it](/blog/how-to-clip-like-me). If you can't or don't want to use Premiere Pro, you can render your clips or project and import into AE. This won't preserve your cuts, effects, masks or layers like Dynamic Linking from Premiere does. But if that's not an issue, it works.
 
-## Precompositions
+## Precomposing
 
 ![precompose dialog](precompose.png)
 
-Once you have your scene or project in AE, you may find yourself having problems with timeline space. Since every clip is a layer by necessity, they add up quickly. To make it easier on you (and possible collaborators) the clips can be grouped into compositions. The process is similar to Premiere's nesting / subsequences. To precompose layers, select them and [kbd="right click > precompose"/] or [kbd="ctrl + shift + c"/]. The precompose dialog box will show up and you'll usually want to select "Move all attributes..." and check the box for "Adjust composition duration...". Then click OK to create the precomposition. If you haven't worked with a a program with a similar feature before, precomps will appear like "mini projects" of their own, inside your main project. They have their own timeline but act like clips. You'll get used to it.  
-
-In fact, the main timeline you've been working in the entire time is also just a precomp. Usually a the main precomp is called the main composition or just a composition and nested compositions making it up are called precomps. But these are just semantics. All you need to know is that all of the words composition, comp, precomposition and precomp mean the exact same thing. They're all just compositions.
+Once you have your scene or project in AE, you may find yourself having problems with timeline space. Since every clip is a layer by necessity, they add up quickly. To make it easier on you (and possible collaborators) the clips can be grouped into compositions. The process is similar to Premiere's nesting / subsequences. To precompose layers, select them and [kbd="right click > precompose"/] or [kbd="ctrl + shift + c"/]. The precompose dialog box will show up and you'll usually want to select "Move all attributes..." and check the box for "Adjust composition duration...". Then click OK to create the precomposition. If you haven't worked with a a program with a similar feature before, compositions will appear like "mini projects" of their own, inside your main project. They have their own timeline but act like clips. You'll get used to it.
 
 ## Navigation
 
-You can double click a composition to open it. To get back out you can click on the tabs on the top left of the timeline that show all open compositions. There's also a "mini-map" that can be accessed by pressing [kbd="tab"/]. The keyboard shortcut [kbd="shift + esc"/] toggles between the two most recently opened comps. To make your navigation and general life experience better, you should label the precomps you make. And all layers in your project. And all items in your project panel (and all files on your computer). To give an item a name in AE, select it and press [kbd="enter"/].
+You can double click a composition to open it. To get back out you can click on the tabs on the top left of the timeline that show all open compositions. There's also a "mini-map" that can be accessed by pressing [kbd="tab"/]. The keyboard shortcut [kbd="shift + esc"/] toggles between the two most recently opened comps. To make your navigation and general life experience better, you should label the compositions you make. And all layers in your project. And all items in your project panel (and all files on your computer). To give an item a name in AE, select it and press [kbd="enter"/].
 
 ## Tips
 
-* Since precomps are layers, you can mask them, use layer styles and effects on them and do anything you can with a normal layer. You can even precomp your precomps!
-* Precomposing solves many problems with effects that you want to apply to specific layers but not the whole project and not to each layer individually.
-* If you want to reuse a layer or layers multiple times, precomping first and reusing the precomp will make AE perform better. After Effects knows that it's the same composition, and it reuses the preview for it for all of the instances of that composition.
+* Since comps are layers, you can mask them, use layer styles and effects on them and do anything you can with a normal layer. You can even precompose your already precomposed compositions!
+* Precomposing solves many problems with organizing and applying effects. If an effect is acting up, try precomposing your layers and applying the effect to the created composition.
+* If you want to reuse a layer or layers multiple times, precomping first and reusing that composition will make AE perform better. After Effects knows that it's the same composition, and it reuses the prerender of it for all of the instances of that composition.
 
 [assets=inlineCss]
 .composition #summary {
