@@ -4,8 +4,8 @@ published: true
 media_order: 'manymasks.png,maskingexample.gif,masklayer.png,options.png,masking.gif'
 taxonomy:
     authors:
-        - bastiera
         - reisir
+        - bastiera
 ---
 
 Masking in Vegas Pro is done in the Pan/Crop window. Masking can also be done using the Bézier Masking effect, in newer Vegas versions. The masks created with the Bézier Masking effect can be used for [motion tracking](/vegas-pro/motion-tracking). The effect also allows independent control of multiple masks, something that the mask in Pan/Crop window cannot do. But the Pan/Crop window is more than enough in most cases and it allows zooming the view which is a major advantage for accuracy.
@@ -56,7 +56,7 @@ What exactly is this supposed to mean?
 
 ## Animating masks
 
-Enabling the mask automatically enables keyframing of the mask. This works the same way [animating](https://amv.tools/vegas-pro/pan-and-crop#animating) the position does.
+Enabling the mask automatically enables keyframing of the mask. This works the same way [animating](/vegas-pro/pan-and-crop#animating) the position does.
 
 There's multiple methods to animate a mask. After masking the first frame, you can either move the points of your existing mask to their new locations, or [kbd="right click > reset mask"] to start with a clean slate. This resetting functionality is unique to Vegas Pro, and doesn't work in, for example, After Effects. Which is why you should learn to use the least amount of anchors possible and how to efficiently use the curves part of bézier curves. That is, if you ever plan to use After Effects. If not, go wild and use any number of points per keyframe. It can be a very efficient and fast way of masking to reset on every frame. This is just a warning for prospective AE users to not get used to the luxury of resetting masks. 
 
