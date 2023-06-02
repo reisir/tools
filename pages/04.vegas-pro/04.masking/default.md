@@ -8,11 +8,10 @@ taxonomy:
         - bastiera
 ---
 
-Bézier masking in Vegas Pro, the anchor creation tool and more.
-
-===
 
 Masking in Vegas Pro is done in the Pan/Crop window. Masking can also be done using the Bézier Masking effect, in newer Vegas versions. The masks created with the Bézier Masking effect can be used for [motion tracking](/vegas-pro/motion-tracking). The effect also allows independent control of multiple masks, something that the mask in Pan/Crop window cannot do. But the Pan/Crop window is more than enough in most cases and it allows zooming the view which is a major advantage for accuracy.
+
+===
 
 ![masking in Vegas Pro](masking.gif "Anime: Samurai Champloo")
 
@@ -36,17 +35,17 @@ To move your anchors, use the Normal Edit tool [i=vpedit/] **OR** hold [kbd=ctrl
 
 Using the Anchor Creation tool [i=vppen/] and dragging an anchor point without holding [kbd=ctrl] will enable the weights and reveal the anchors "handles". By adjusting the handles you can adjust the curving of the line between your anchors.
 
-There's a ton of ways to mask, you can be as precise as you need and use curves as much as or as little as you want to. But if you ever want to use After Effects, it's a good idea to learn how to use bézier curves.
-
-Vegas Pro lets you make multiple masks on a clip. Animating multiple masks is tedious, especially if you add more masks after already animating another mask. The main use of additional masks on a single clip are negative masks. Try making two masks (close the first and then click outside of it to start another mask). Then change the mode of the new mask to negative and move it over the first mask to see how they interact. Negative masks are basically masks for your masks. These are useful for punching holes to masks. For example, you've masked a character but their arm, hair or clothing has a gap inside the silhouette of the character. You can use a negative mask to remove that part from your main mask. 
-
-If you want to mask multiple objects, it's recommended (by me) to just duplicate the clip and make an entirely new mask. Unless the other object is very simple. Use your own judgement.
-
 [divider/]
 
 ![creating a mask with the anchor creation tool](maskingexample.gif "Anime: Samurai Champloo")
 
 [/row]
+
+There's a ton of ways to mask, you can be as precise as you need and use curves as much as or as little as you want to. But if you ever want to use After Effects, it's a good idea to learn how to use bézier curves.
+
+Vegas Pro lets you make multiple masks on a clip. Animating multiple masks is tedious, especially if you add more masks after already animating another mask. The main use of additional masks on a single clip are negative masks. Try making two masks (close the first and then click outside of it to start another mask). Then change the mode of the new mask to negative and move it over the first mask to see how they interact. Negative masks are basically masks for your masks. These are useful for punching holes to masks. For example, you've masked a character but their arm, hair or clothing has a gap inside the silhouette of the character. You can use a negative mask to remove that part from your main mask. 
+
+If you want to mask multiple objects, it's recommended (by me) to just duplicate the clip and make an entirely new mask. Unless the other object is very simple. Use your own judgement.
 
 <!--
 
