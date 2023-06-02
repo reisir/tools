@@ -1,7 +1,7 @@
 ---
 title: Masking
 published: true
-media_order: 'maskingexample.gif,masklayer.png,manymasks.png,options.png,masking.gif'
+media_order: 'manymasks.png,maskingexample.gif,masklayer.png,options.png,masking.gif'
 taxonomy:
     authors:
         - reisir
