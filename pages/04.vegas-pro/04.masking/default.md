@@ -8,7 +8,6 @@ taxonomy:
         - bastiera
 ---
 
-
 Masking in Vegas Pro is done in the Pan/Crop window. Masking can also be done using the Bézier Masking effect, in newer Vegas versions. The masks created with the Bézier Masking effect can be used for [motion tracking](/vegas-pro/motion-tracking). The effect also allows independent control of multiple masks, something that the mask in Pan/Crop window cannot do. But the Pan/Crop window is more than enough in most cases and it allows zooming the view which is a major advantage for accuracy.
 
 ===
@@ -43,9 +42,9 @@ Using the Anchor Creation tool [i=vppen/] and dragging an anchor point without h
 
 There's a ton of ways to mask, you can be as precise as you need and use curves as much as or as little as you want to. But if you ever want to use After Effects, it's a good idea to learn how to use bézier curves.
 
-Vegas Pro lets you make multiple masks on a clip. Animating multiple masks is tedious, especially if you add more masks after already animating another mask. The main use of additional masks on a single clip are negative masks. Try making two masks (close the first and then click outside of it to start another mask). Then change the mode of the new mask to negative and move it over the first mask to see how they interact. Negative masks are basically masks for your masks. These are useful for punching holes to masks. For example, you've masked a character but their arm, hair or clothing has a gap inside the silhouette of the character. You can use a negative mask to remove that part from your main mask. 
+Vegas Pro lets you make multiple masks on a clip. Animating multiple masks is tedious, especially if you add more masks after already animating another mask. The main use of multiple masks on a single clip are negative masks. These are useful for punching holes to positive masks. For example, you've masked a character but there's a gap between their arm, hair or clothing that shows the background. You can use a negative mask to remove that part from your main mask. Depending on how large the gap showing the background is and what your new background is, it might not be necessary to remove it.
 
-If you want to mask multiple objects, it's recommended (by me) to just duplicate the clip and make an entirely new mask. Unless the other object is very simple. Use your own judgement.
+If you want to mask multiple objects, it's recommended (by me) to duplicate the clip and make an entirely new mask. Unless the other object is very simple. Or you need an effect to see both masked objects. Use your own judgement. The reason why I do not recommend masking multiple objects in the same clip is that it's hard to animate multiple masks in Vegas Pro.
 
 <!--
 
