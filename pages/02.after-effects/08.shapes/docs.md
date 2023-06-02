@@ -28,7 +28,7 @@ Honestly if you want to know more about modifiers (and shapes in general), go wa
 
 [divider]
 
-![a path with no modifiers](path%20transparent.png )
+![a path with no modifiers](path%20transparent.png)
 
 [/row]
 
