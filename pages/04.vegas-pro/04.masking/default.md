@@ -6,6 +6,7 @@ media_order: 'maskingexample.gif,masklayer.png,manymasks.png,options.png,masking
 taxonomy:
     authors:
         - bastiera
+        - reisir
 ---
 
 Masking in Vegas Pro is done in the Pan/Crop window. Masking can also be done using the Bézier Masking effect, in newer Vegas versions. The masks created with the Bézier Masking effect can be used for [motion tracking](/vegas-pro/motion-tracking). The effect also allows independent control of multiple masks, something that the mask in Pan/Crop window cannot do. But the Pan/Crop window is more than enough in most cases and it allows zooming the view which is a major advantage for accuracy.
