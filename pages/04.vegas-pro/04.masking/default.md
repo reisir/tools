@@ -46,14 +46,6 @@ Vegas Pro lets you make multiple masks on a clip. Animating multiple masks is te
 
 If you want to mask multiple objects, it's recommended (by me) to duplicate the clip and make an entirely new mask. Unless the other object is very simple. Or you need an effect to see both masked objects. Use your own judgement. The reason why I do not recommend masking multiple objects in the same clip is that it's hard to animate multiple masks in Vegas Pro.
 
-<!--
-
-What exactly is this supposed to mean?
-
-!! Vegas Pro does not allow you to merge or group different masks together. Make sure that you didn't accidentally start a new mask before finishing the one you initiated.
-
--->
-
 ## Animating masks
 
 Enabling the mask automatically enables keyframing of the mask. This works the same way [animating](/vegas-pro/pan-and-crop#animating) the position does.
