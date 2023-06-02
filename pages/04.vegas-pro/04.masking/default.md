@@ -2,7 +2,7 @@
 title: Masking
 published: true
 visible: false
-media_order: 'maskingexample.gif,masklayer.png,masking.gif,manymasks.png,options.png'
+media_order: 'maskingexample.gif,masklayer.png,manymasks.png,options.png,masking.gif'
 taxonomy:
     authors:
         - bastiera
