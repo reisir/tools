@@ -56,14 +56,13 @@ What exactly is this supposed to mean?
 
 -->
 
-
 ## Animating masks
 
-Enabling the mask automatically enables [animating](https://amv.tools/vegas-pro/pan-and-crop#animating) the mask. This works the same way animating the position works.
+Enabling the mask automatically enables keyframing of the mask. This works the same way [animating](https://amv.tools/vegas-pro/pan-and-crop#animating) the position does.
 
-There's multiple methods to animate a mask. After masking the first frame, you can either move the points of your existing mask to their new locations, or [kbd="right click > reset mask] to start with a clean slate. This resetting functionality is unique to Vegas Pro, and doesn't work in, for example, After Effects. Which is why you should learn to use the least amount of anchors possible and how to efficiently use the curves part of bézier curves. That is, if you ever plan to use After Effects. If not, go wild and use any number of points per keyframe. It can be a very efficient and fast way of masking to reset on every frame. This is just a warning for prospective AE users to not get used to the luxury of resetting masks. 
+There's multiple methods to animate a mask. After masking the first frame, you can either move the points of your existing mask to their new locations, or [kbd="right click > reset mask"] to start with a clean slate. This resetting functionality is unique to Vegas Pro, and doesn't work in, for example, After Effects. Which is why you should learn to use the least amount of anchors possible and how to efficiently use the curves part of bézier curves. That is, if you ever plan to use After Effects. If not, go wild and use any number of points per keyframe. It can be a very efficient and fast way of masking to reset on every frame. This is just a warning for prospective AE users to not get used to the luxury of resetting masks. 
 
-If you're working with anime that only moves every other frame (like most anime does), you will notice that if you only make new masks on those new frames, Vegas will animate the mask between those frames. To stop this, select your keyframes and [kbd="right click > hold"]. This will turn the keyframes red and stop Vegas from interpolating (animating between keyframes).
+If you're working with anime that only moves every other frame (like most anime does), you will notice that creating new masks only on those new frames will lead to Vegas animating the shape between those two keyframes. To stop this, select your keyframes and [kbd="right click > hold"]. This will turn the keyframes red and stop Vegas from interpolating (animating between keyframes).
 
 ## Mask settings
 
@@ -78,14 +77,13 @@ On the left of the Pan/Crop window, you'll see the different settings that you c
 
 [divider/]
 
-![](options.png)
+![mask settings](options.png)
 
 [/row]
 
 ## Tips
 
- - Depending on the complexity of the object you want to mask, you may want to use multiple masks. In this example, there's a total of 4 masks, with different settings.
+![An example of using several masks](manymasks.png)
 
-![An example of several masks](manymasks.png)
-
-- It's very easy to lose track of your mask in the Pan/Crop window by zooming and / or panning around. Deselection is also very common. To continue your mask, try double-clicking on the last anchor point with the Normal Edit tool [i=vpedit/]. If nothing else works, try [kbd="Ctrl + Z"] until you see the anchor points again. Remember that either [kbd="ctrl + shift + Z"] or [kbd="ctrl + Y"] lets you re-do anything you undo. 
+ - Depending on the complexity of the object you want to mask, you may want to use multiple masks. In the image above, there's a total of 4 masks, with different settings. Mask number 3 is negative.
+ - It's very easy to lose track of your mask in the Pan/Crop window by zooming and / or panning around. Deselection is also common. To continue your mask, try double-clicking on the last anchor point with the Normal Edit tool [i=vpedit/]. If nothing else works, try [kbd="Ctrl + Z"] until you see the anchor points again. Remember that either [kbd="ctrl + shift + Z"] or [kbd="ctrl + Y"] lets you re-do anything you undo. 
