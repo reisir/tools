@@ -60,7 +60,7 @@ If you're working with anime that only moves every other frame (like most anime 
 
 On the left of the Pan/Crop window, you'll see the different settings that you can apply to your mask:
 
-- **Apply to FX** : when activated, this option will make it so your mask only apply to the effects of the event, not the content.
+- **Apply to FX** : When activated, this option will make it so your mask only apply to the effects of the event, not the content.
 - **Mode** : *Positive* is the default, making anything inside the mask visible. *Negative* is the opposite. *Disabled* will deactivate the mask.
 - **Opacity** : Reduces the masks influence on the content and other masks. A bit counter-intuitive, especially if there's only one mask on a clip.
 - **Feather** : Blurs the edges of the mask. Good for blending the masked object into a new background and reducing "chatter" (or discoloration) of the edges.
