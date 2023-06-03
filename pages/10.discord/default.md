@@ -1,5 +1,5 @@
 ---
-title: Discord
+title: 'Discord server'
 redirect: 'https://discord.gg/d7WvPupRya'
 ---
 
