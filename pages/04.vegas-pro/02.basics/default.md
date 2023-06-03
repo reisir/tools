@@ -1,6 +1,6 @@
 ---
 title: Basics
-media_order: 'pslocation.png,UI.png,newproject2.png,projectsettingsmenu2.png,event.png,templatesettingsmp4.png,templatesettingsavi.png,rendersettings2.png,rendersettingsavi2.png'
+media_order: 'UI.png,pslocation.png,newproject2.png,projectsettingsmenu2.png,event.png,templatesettingsmp4.png,templatesettingsavi.png,rendersettings2.png,rendersettingsavi2.png,uncompressed.png,utvideo.png,lossy.png'
 taxonomy:
     authors:
         - bastiera
