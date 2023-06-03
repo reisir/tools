@@ -4,6 +4,8 @@ body_classes: no-anchors
 taxonomy:
     category:
         - listable
+    authors:
+        - reisir
 metadata:
     'twitter:card': summary_large_image
 ---
