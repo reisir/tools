@@ -25,6 +25,21 @@ a#sidebar-toggle i {
   border-radius: 8px;
 }
 
+#sidebar-credit {
+  margin-top: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-items: center;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+#sidebar-credit a {
+  font-weight: bold;
+}
+
 /*
  * Media
  */
