@@ -12,9 +12,10 @@
 	{% do assets.addJs('theme://js/griddy.js') %}
 {% endblock %}
 
-{% set collection = page.collection %}
-{% if not collection %}
-	{% set collection = page.collection({ 'items': {'@self.children': ''}}) %}
+{% set collection = page.collection() %}
+{% if collection is empty %}
+	{% set options = { items: {'@self.children':''}, 'filter' : { visible: true, published: true } } %}
+	{% set collection = page.collection(options) %}
 {% endif %}
 
 {% block extra %}
@@ -24,7 +25,6 @@
 			{% if not preview %}
 				{% set preview = item.media|first %}
 			{% endif %}
-
 			<div class="griddy-item" data-href="{{ item.url }}">
 				<a href="{{ item.url }}">
 					<div class="griddy-media-container">

@@ -5,6 +5,7 @@ taxonomy:
     authors:
         - bastiera
 visible: true
+published: true
 ---
 
 Covers the absolute basics of Vegas Pro like the UI, some keyboard shortcuts and how to make a project.
