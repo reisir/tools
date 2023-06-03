@@ -32,6 +32,8 @@ Unbothered, moisturized, happy, in my lane, focused, flourishing.
 * [Good AMVs playlist](https://www.youtube.com/playlist?list=PLw7nHTB6FiG9FtVNTn-2TubI2KfjHk4RM)
 * [Music playlist](https://www.youtube.com/playlist?list=PLw7nHTB6FiG8TAMELwKsBIYgkUguU00OA)
 
+### Selected music
+
 [plugin:youtube](https://youtu.be/hYSItlWvu0c)
 
 [plugin:youtube](https://youtu.be/oXrbMDww9ss)
@@ -49,6 +51,10 @@ Unbothered, moisturized, happy, in my lane, focused, flourishing.
 [plugin:youtube](https://youtu.be/4p9oK_R_Uxo)
 
 [plugin:youtube](https://youtu.be/8LP87qJLn1A)
+
+[plugin:youtube](https://youtu.be/VhKpGW-JAMs)
+
+[plugin:youtube](https://youtu.be/i2kUmPLhrAc)
 
 [section name="signature"]
 
