@@ -58,7 +58,7 @@ Unbothered, moisturized, happy, in my lane, focused, flourishing.
 
 [section name="signature"]
 
-I wish I could get this footer to stay at the bottom on [short pages](/vegas-pro)...
+I need to write more guides...
 
 [fa=youtube] [YouTube](https://www.youtube.com/@Reseptivaras) [fa=github] [GitHub](https://github.com/reisir) [fa=discord] Reisir#5441
 
