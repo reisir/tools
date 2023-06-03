@@ -8,6 +8,6 @@ metadata:
     'twitter:card': summary_large_image
 ---
 
-A guide for beginners. Work in progress.
+Guides for new editors or anyone who wants to learn the basics of Vegas Pro.
 
 ===
