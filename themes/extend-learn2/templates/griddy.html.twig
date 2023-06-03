@@ -12,9 +12,14 @@
 	{% do assets.addJs('theme://js/griddy.js') %}
 {% endblock %}
 
+{% set collection = page.collection %}
+{% if not collection %}
+	{% set collection = page.collection({ 'items': {'@self.children': ''}}) %}
+{% endif %}
+
 {% block extra %}
 	<div id="extra" class="griddy">
-		{% for item in page.collection %}
+		{% for item in collection %}
 			{% set preview = item.media.images|first %}
 			{% if not preview %}
 				{% set preview = item.media|first %}
