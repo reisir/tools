@@ -19,6 +19,7 @@ I hate Premiere Pro and these are all the reasons why
 - you can set a keyboard shortcut to "Speed/Duration" or use the "Rate" tool to change speeds when needed
 - the ctrl + L mode doesn't exist, you have to use either the ripple edit tool or slide tool, both suck 
 	- you can move clips and then select and delete the space between them. this has unintuitive consequences for clips on other tracks
+- cannot loop clips, have to copy and paste to loop
 
 ## Preferences
 
