@@ -34,6 +34,10 @@ https://helpx.adobe.com/premiere-pro/using/source-patching-track-targeting.html
 - the claimed benefit of track targeting is that you can use shortcuts to navigate between clips, on tracks that are targeted. but you have to fucking enable the targeting to do this??
 - how I deal with this is keep only one track targeted and always have it empty. this can be track 1 or 24 just keep it empty so you can actually copy paste without accidentally deleting half your work
 
+## They have made entire plugins to alleviate the shit system that is track targeting
+
+https://aescripts.com/architect-pro/
+
 ## Masking? I hardly know her
 
 - masks are feathered by default because you're not supposed to do accurate masking in Premiere
