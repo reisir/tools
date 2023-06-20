@@ -36,15 +36,22 @@ I have also made an alternate version called [RE-AP](/reap) that removes unneces
 
 ## Flow
 
-![Flow](flow%20ui.png){.right .caption}
+[row]
+![Flow](flow%20ui.png)
+[divider]
 
 [Flow](https://aescripts.com/flow/) ($30.00) allows you to apply curves to keyframes. No matter what type of keyframes or how many etc. It also has a very intuitive curve editor. You can save your own curves and use them across projects.
 
 You can apply the curves to the keyframes or as expressions. The keyframe mode works most of the time. If it doesn't, or you plan to edit the keyframes a lot, the expression mode saves you having to reapply every time you move the keyframes. The downside of the expression mode is that if you try to change the curve, it complains about there being an existing expression. And that you can't use your own expressions on the property.
 
+[/row]
+
 ## Duik Ángela
 
+[row]
 ![Duik Animation](duik%20animation.png)
+[divider]
 
 [Duik](https://rxlaboratory.org/tools/duik-angela/) does a lot of mostly animation and rigging related things. But you can dock the Animation tab separately and it has some very nice easing controls. Here's a [Jake in Motion](https://youtu.be/IIBqi3K32c4?t=76) video about Duik and other tools that you might find useful. The difference between all of them and Duik is that Duik is free!
 
+[/row]
