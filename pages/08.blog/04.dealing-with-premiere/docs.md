@@ -24,6 +24,7 @@ I hate Premiere Pro and these are all the reasons why
 ## Preferences
 
 - audio scrubbing enabled by default. some people claim this helps them.
+- CC 23 removed the preference to disable the home screen. You now either open the last project or show the home screen
 
 ## Subclips, in/out points, audio tracks and why source patching and track targeting are shit systems
 
